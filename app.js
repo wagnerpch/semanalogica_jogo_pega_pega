@@ -12,10 +12,10 @@ const btn = document.getElementById("btn");
 
 btn.addEventListener('mouseover', () => {
     btn.style.position = "absolute";
-    btn.style.top = `${(Math.floor(Math.random() * (window.innerHeight - 18))}px`;
-    btn.style.left = `${(Math.floor(Math.random() * (window.innerHeight - 18))}px`;
+    btn.style.top = `${(Math.floor(Math.random() * (window.innerHeight - 18)))}px`;
+    btn.style.left = `${(Math.floor(Math.random() * (window.innerWidth - 16)))}px`;
 })
 
-btn.addEventListener('click', ( => {
+btn.addEventListener('click', () => {
     console.log('Você ganhou')
 })
